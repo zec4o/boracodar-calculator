@@ -6,8 +6,9 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+  background: linear-gradient(180deg, #807ece 0%, #8e7ece 100%);
   font-family: "Rubik", sans-serif;
+  display: flex;
 }
 
 #resultado {
@@ -36,7 +37,7 @@ table td button {
 }
 
 #cancelEntry {
-  color: #975DFA;
+  color: #975dfa;
 }
 
 .purpleButton {
@@ -44,5 +45,5 @@ table td button {
 }
 
 #equal {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7f45e2;
 }/*# sourceMappingURL=atoms.css.map */
