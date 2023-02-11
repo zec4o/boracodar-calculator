@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, #807ECE 0%, #8E7ECE 100%);
+  font-family: 'Rubik', sans-serif;
+}
+
+#resultado {
+  font-size: 36px;
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--textColor)
+}
+
+#igual {
+  font-size: 36px;
+  line-height: 140%;
+  font-weight: 400;
+  color: var(--textMath)
+}
+
+table td button {
+  color: var(--textColor);
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50rem;
+  border: 0;
+  background: var(--buttonColor);
+  font-size: 1.5rem;
+  box-shadow: var(--buttonShadow)
+}
+
+#cancelEntry {
+  color: #975DFA;
+}
+
+.purpleButton {
+background: var(--sideButtonColor) ;
+}
+
+#equal {
+ background: linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(255, 255, 255, 0.05) 100%), #7F45E2;
+}
