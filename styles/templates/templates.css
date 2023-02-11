@@ -1,1 +1,8 @@
-/*# sourceMappingURL=templates.css.map */
+#calculator {
+  width: 22rem;
+  height: 35rem;
+  background: #2d2a37;
+  margin: auto auto;
+  border-radius: 3rem;
+  box-shadow: var(--buttonShadow);
+}/*# sourceMappingURL=templates.css.map */
