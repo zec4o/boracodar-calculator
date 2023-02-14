@@ -48,6 +48,12 @@ table td button {
   box-shadow: var(--buttonShadow);
 }
 
+i {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 #cancelEntry {
   color: #975dfa;
 }
