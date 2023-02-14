@@ -1,1 +1,9 @@
-/*# sourceMappingURL=organisms.css.map */
+#teclado {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+
+table td {
+  padding: 0.25rem;
+}/*# sourceMappingURL=organisms.css.map */
