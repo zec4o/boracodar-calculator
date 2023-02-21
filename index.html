@@ -25,12 +25,12 @@
         <!--molecule-->
         <div id="calculo">
           <!--atoms-->
-          <p>1 + 1</p>
+          <span id="operator"></span>
         </div>
         <div id="result">
           <!-- atoms -->
           <i class="ph-equals"></i>
-          <p>2</p>
+          <strong id="numberResult">0</strong>
         </div>
       </div>
       <div id="teclado">
@@ -41,53 +41,53 @@
               <!--molecule-->
               <td><button id="cancelEntry">CE</button></td>
               <!--atom-->
-              <td><button>C</button></td>
+              <td><button id="cancel">C</button></td>
               <!--atom-->
-              <td><button><i class="ph-percent"></i></button></td>
+              <td><button id="percent"><i class="ph-percent"></i></button></td>
               <!--atom-->
-              <td><button class="purpleButton"><i class="ph-divide"></i></button></td>
-              <!--atom-->
-            </tr>
-            <tr>
-              <!--molecule-->
-              <td><button>7</button></td>
-              <!--atom-->
-              <td><button>8</button></td>
-              <!--atom-->
-              <td><button>9</button></td>
-              <!--atom-->
-              <td><button class="purpleButton"><i class="ph-x"></i></button></td>
+              <td><button id="divide" class="purpleButton"><i class="ph-divide"></i></button></td>
               <!--atom-->
             </tr>
             <tr>
               <!--molecule-->
-              <td><button>4</button></td>
+              <td><button class="number">7</button></td>
               <!--atom-->
-              <td><button>5</button></td>
+              <td><button class="number">8</button></td>
               <!--atom-->
-              <td><button>6</button></td>
+              <td><button class="number">9</button></td>
               <!--atom-->
-              <td><button class="purpleButton"><i class="ph-minus"></i></button></td>
-              <!--atom-->
-            </tr>
-            <tr>
-              <!--molecule-->
-              <td><button>1</button></td>
-              <!--atom-->
-              <td><button>2</button></td>
-              <!--atom-->
-              <td><button>3</button></td>
-              <!--atom-->
-              <td><button class="purpleButton"><i class="ph-plus"></i></button></td>
+              <td><button id="multiply" class="purpleButton"><i class="ph-x"></i></button></td>
               <!--atom-->
             </tr>
             <tr>
               <!--molecule-->
-              <td><button><i class="ph-plus-minus"></i></button></td>
+              <td><button class="number">4</button></td>
               <!--atom-->
-              <td><button>0</button></td>
+              <td><button class="number">5</button></td>
               <!--atom-->
-              <td><button>,</button></td>
+              <td><button class="number">6</button></td>
+              <!--atom-->
+              <td><button id="minus" class="purpleButton"><i class="ph-minus"></i></button></td>
+              <!--atom-->
+            </tr>
+            <tr>
+              <!--molecule-->
+              <td><button class="number">1</button></td>
+              <!--atom-->
+              <td><button class="number">2</button></td>
+              <!--atom-->
+              <td><button class="number">3</button></td>
+              <!--atom-->
+              <td><button id="plus" class="purpleButton"><i class="ph-plus"></i></button></td>
+              <!--atom-->
+            </tr>
+            <tr>
+              <!--molecule-->
+              <td><button id="plusMinus"><i class="ph-plus-minus"></i></button></td>
+              <!--atom-->
+              <td><button class="number">0</button></td>
+              <!--atom-->
+              <td><button id="comma">,</button></td>
               <!--atom-->
               <td><button id="equal">=</button></td>
               <!--atom-->
@@ -96,5 +96,6 @@
         </table>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
