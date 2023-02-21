@@ -7,6 +7,7 @@ This is a simple calculator made with JavaScript, HTML and CSS. It's based on Ro
 -   JavaScript
 -   HTML
 -   CSS
+-   Sass
 
 ## What have i learned/reinforced? 🤨
 
